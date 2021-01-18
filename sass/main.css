@@ -253,6 +253,7 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 30rem;
+  margin-bottom: 3rem;
 }
 
 .card__side {
@@ -293,7 +294,7 @@ body {
 .card-title {
   text-align: center;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
   font-size: 4rem;
 }
 
@@ -301,9 +302,5 @@ body {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
   opacity: .5;
-}
-
-.btn {
-  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

@@ -4,6 +4,7 @@
     -moz-perspective: 150rem;
     position: relative;
     height: 30rem;
+    margin-bottom: 3rem;
     
     &__side {
         height: 30rem;
@@ -39,16 +40,19 @@
     &-title {
         text-align: center;
         text-transform: uppercase;
-        color: $color-white;
+        color: $color-black;
         font-size: 4rem;
     }
+    
+
 }
 
-.card-img--back {
-    transform: scaleX(-1);
-    opacity: .5;
-}
+.card-img {
 
-.btn {
-    text-align: center;
+
+    &--back {
+        transform: scaleX(-1);
+        opacity: .5;
+        }
+
 }

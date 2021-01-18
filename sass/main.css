@@ -247,6 +247,13 @@ body {
   text-transform: uppercase;
 }
 
+.projects-python {
+  background-image: url("/img/landscape1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .html__card {
   -webkit-perspective: 150rem;
           perspective: 150rem;
@@ -309,7 +316,37 @@ body {
 }
 
 .python__card {
-  width: 5rem;
-  border-color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin: 4rem;
+}
+
+.python__card-title {
+  font-size: 2rem;
+}
+
+.python__card-link {
+  font-size: 1.5rem;
+}
+
+.python__card-img {
+  height: 3rem;
+  margin: 1rem 0 1rem 0;
+  -webkit-animation: spin 4s linear infinite;
+          animation: spin 4s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
+}
+
+@keyframes spin {
+  to {
+    -webkit-transform: rotateZ(360deg);
+            transform: rotateZ(360deg);
+  }
 }
 /*# sourceMappingURL=main.css.map */

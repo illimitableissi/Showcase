@@ -55,6 +55,32 @@
 }
 
 .python__card {
-    width: 5rem;
-    border-color: $color-black;
+    background-color: rgba($color-white, .7);
+    text-align: center;
+    margin: 4rem;
+
+    &-body {
+       
+    }
+
+    &-title {
+        font-size: 2rem;
+    }
+
+    &-link {
+        font-size: 1.5rem
+    }
+
+    &-img {
+        height: 3rem;
+        margin: 1rem 0 1rem 0;
+        animation: spin 4s linear infinite;
+
+    }
 }
+
+@keyframes spin {
+    to {
+      transform: rotateZ(360deg);
+    }
+  }

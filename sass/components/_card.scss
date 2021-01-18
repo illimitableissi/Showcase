@@ -1,4 +1,4 @@
-.card {
+.html__card {
     // FUNCTIONALITY
     perspective: 150rem;
     -moz-perspective: 150rem;
@@ -6,7 +6,7 @@
     height: 30rem;
     margin-bottom: 3rem;
     
-    &__side {
+    &-side {
         height: 30rem;
         transition: all .8s ease;
         position: absolute;
@@ -29,11 +29,11 @@
     }
   
 
-    &:hover &__side--front {
+    &:hover &-side--front {
         transform: rotateY(-180deg);
     }
 
-    &:hover &__side--back {
+    &:hover &-side--back {
         transform: rotateY(0);
     }
 
@@ -44,15 +44,17 @@
         font-size: 4rem;
     }
     
-
+    &-img {
+        height: 30rem;
+    
+        &--back {
+            transform: scaleX(-1);
+            opacity: .5;
+        }
+    }
 }
 
-.card-img {
-    height: 30rem;
-
-    &--back {
-        transform: scaleX(-1);
-        opacity: .5;
-        }
-
+.python__card {
+    width: 5rem;
+    border-color: $color-black;
 }

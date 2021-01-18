@@ -91,6 +91,12 @@
 
     }
 
+    &__svg {
+        margin-top: 5rem;
+        height: 6rem;
+        animation: rotate 1.5s linear infinite;
+    }
+
 
     //FUNCTIONALITY
     &__checkbox:checked ~ &__background {
@@ -151,3 +157,9 @@
         transform: rotate(-135deg);
     }
 }
+
+@keyframes rotate {
+    to {
+      transform: rotateY(360deg);
+    }
+  }

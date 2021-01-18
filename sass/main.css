@@ -159,6 +159,13 @@ body {
   color: red;
 }
 
+.navigation__svg {
+  margin-top: 5rem;
+  height: 6rem;
+  -webkit-animation: rotate 1.5s linear infinite;
+          animation: rotate 1.5s linear infinite;
+}
+
 .navigation__checkbox:checked ~ .navigation__background {
   -webkit-transform: scale(80);
           transform: scale(80);
@@ -219,6 +226,20 @@ body {
   top: 0;
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
+}
+
+@-webkit-keyframes rotate {
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotate {
+  to {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+  }
 }
 
 .projects__header {

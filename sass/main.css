@@ -22,23 +22,23 @@ body {
 
 .home {
   position: relative;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
 }
 
 .home__introduction {
   color: #fff;
-  padding-left: 1rem;
-}
-
-.home__introduction--header {
-  font-size: 25rem;
-  font-family: "Fredericka the Great", cursive;
+  padding-left: 1.5rem;
   text-align: left;
 }
 
+.home__introduction--header {
+  font-size: 20rem;
+  font-family: "Fredericka the Great", cursive;
+}
+
 .home__introduction--text {
-  text-align: center;
+  text-align: left;
   font-size: 2rem;
   margin-bottom: 40rem;
 }
@@ -58,6 +58,16 @@ body {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer__img {
+  height: 15rem;
+  padding: 3rem;
+  fill: currentColor;
 }
 
 .navigation__checkbox {
@@ -221,15 +231,5 @@ body {
 
 .projects__card {
   margin-bottom: 1rem;
-}
-
-.footer {
-  text-align: center;
-  background-color: #494949;
-}
-
-.footer__img {
-  height: 10rem;
-  padding: 1.5rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,20 +1,20 @@
 .home {
     position: relative;
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
 
     &__introduction {
         color: $color-white;
-        padding-left: 1rem;
+        padding-left: 1.5rem;
+        text-align: left;
 
         &--header {
-            font-size: 25rem;
+            font-size: 20rem;
             font-family: $header-font;
-            text-align: left;
             }
 
         &--text {
-            text-align: center;
+            text-align: left;
             font-size: 2rem;
             margin-bottom: 40rem;
             }
@@ -36,6 +36,16 @@
         height: 100%;
         width: 100%;
         object-fit: cover;
+    }
+}
+
+.footer {
+    text-align: center;
+
+    &__img {
+        height: 15rem;
+        padding: 3rem;
+        fill: currentColor;
     }
 }
 

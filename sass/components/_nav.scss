@@ -77,8 +77,8 @@
             }
         }
         
-        &:hover
-         {
+        &:hover,
+        &:active {
             background-position: 100%;
             color: $color-primary;
             transform: translateX(1rem);
@@ -87,7 +87,6 @@
         &:active {
             color: red;
          }
-
 
     }
 

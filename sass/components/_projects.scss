@@ -1,14 +1,18 @@
-.projects {
+.projects__header {
+    text-align: center;
+    text-transform: uppercase;
+}
 
-    &__header {
-        font-size: 10rem;
-        font-family: $header-font;
-        text-align: right;
-    }
 
-    &__card {
-        margin-bottom: 1rem;
-        // @include rotate
+.projects-html {
+    
+}
 
-    }
+.projects-javascript {
+    background-image: url("/img/landscape1.jpg");
+    height: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

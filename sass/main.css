@@ -148,7 +148,7 @@ body {
   display: inline-block;
 }
 
-.navigation__link:hover {
+.navigation__link:hover, .navigation__link:active {
   background-position: 100%;
   color: #55c57a;
   -webkit-transform: translateX(1rem);
@@ -243,12 +243,16 @@ body {
 }
 
 .projects__header {
-  font-size: 10rem;
-  font-family: "Fredericka the Great", cursive;
-  text-align: right;
+  text-align: center;
+  text-transform: uppercase;
 }
 
-.projects__card {
-  margin-bottom: 1rem;
+.projects-javascript {
+  background-image: url("/img/landscape1.jpg");
+  height: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 /*# sourceMappingURL=main.css.map */

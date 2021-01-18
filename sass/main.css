@@ -298,6 +298,10 @@ body {
   font-size: 4rem;
 }
 
+.card-img {
+  height: 30rem;
+}
+
 .card-img--back {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);

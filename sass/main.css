@@ -243,9 +243,33 @@ body {
   }
 }
 
+.header {
+  height: 50rem;
+  background-image: url("/img/self2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__name {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
 .projects__header {
   text-align: center;
   text-transform: uppercase;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }
 
 .projects-python {

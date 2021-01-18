@@ -1,0 +1,14 @@
+.projects {
+
+    &__header {
+        font-size: 10rem;
+        font-family: $header-font;
+        text-align: right;
+    }
+
+    &__card {
+        margin-bottom: 1rem;
+        // @include rotate
+
+    }
+}

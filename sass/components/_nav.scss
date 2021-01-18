@@ -91,6 +91,7 @@
     }
 
     &__svg {
+        fill: $color-white;
         margin-top: 5rem;
         height: 6rem;
         animation: rotate 1.5s linear infinite;

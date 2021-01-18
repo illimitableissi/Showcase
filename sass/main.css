@@ -160,6 +160,7 @@ body {
 }
 
 .navigation__svg {
+  fill: #fff;
   margin-top: 5rem;
   height: 6rem;
   -webkit-animation: rotate 1.5s linear infinite;
@@ -335,6 +336,7 @@ body {
   margin: 1rem 0 1rem 0;
   -webkit-animation: spin 4s linear infinite;
           animation: spin 4s linear infinite;
+  fill: yellow;
 }
 
 @-webkit-keyframes spin {

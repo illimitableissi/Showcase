@@ -63,11 +63,7 @@ const reactApps = [
         imgSrc: "images/kangaroo.PNG",
         message: "Kangaroo helps lease holders looking to sub-lease their property find lease seekers",
         tech: "MongoDB, React.js, Express.js, Node, CSS, Bootstrap, "
-    }
-]
-
-
-const information = [
+    },
     {
         name: "Clicky Game",
         appLink: "https://illimitableissi.github.io/React-Clicky-Game/",
@@ -76,6 +72,11 @@ const information = [
         message: "Click Game made through React.js",
         tech: "Javascript, React.js, HTML, CSS, Bootstrap"
     },
+]
+
+
+const information = [
+
     {
         name: "Crystal Collector",
         appLink: "https://illimitableissi.github.io/Save-the-Universe/",

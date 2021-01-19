@@ -350,6 +350,45 @@ body {
   opacity: .5;
 }
 
+.javascript__card {
+  margin: 2rem 0 2rem 0;
+  background-color: black;
+}
+
+.javascript__card-shape--caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, 20%);
+          transform: translate(-50%, 20%);
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 2rem;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.javascript__card-shape:hover .javascript__card-shape--caption {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.javascript__card-shape:hover .javascript__card-shape--img {
+  -webkit-filter: blur(10px) brightness(80%);
+          filter: blur(10px) brightness(80%);
+}
+
+.javascript__card-text {
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
 .python__card {
   background-color: rgba(255, 255, 255, 0.7);
   text-align: center;

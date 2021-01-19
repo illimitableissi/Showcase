@@ -245,7 +245,7 @@ body {
 
 .header {
   height: 50rem;
-  background-image: url("/img/self2.jpg");
+  background-image: url(/img/self2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -273,7 +273,7 @@ body {
 }
 
 .projects-python {
-  background-image: url("/img/landscape1.jpg");
+  background-image: url(/img/landscape1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

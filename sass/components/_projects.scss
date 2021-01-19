@@ -1,10 +1,11 @@
 .header {
     height: 50rem;
     background-image: url(/img/self2.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-attachment: fixed;
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    @include parallax;
 
     &__name{
         @include headers;
@@ -16,11 +17,10 @@
 }
 
 
+.projects-html {
+}
+
 .projects-python {
     background-image: url(/img/landscape1.jpg);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
+    @include parallax
 }

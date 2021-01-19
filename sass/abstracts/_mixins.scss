@@ -14,3 +14,10 @@
     font-size: 25px;
     letter-spacing: 10px;
 }
+
+@mixin parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

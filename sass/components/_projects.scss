@@ -2,9 +2,10 @@
     height: 50rem;
     background-image: url(../img/self2.JPG);
     @include parallax;
+    // @include query;
 
-        @media screen and (max-device-width: 860px){
-            background-image: url(../img/self2_small.jpg)
+        @media screen and (max-width: 600px){
+            background-image: url(/img/self2_small.jpg)
         }
 
     &__name {

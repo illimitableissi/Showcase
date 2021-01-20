@@ -21,3 +21,9 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+@mixin query {
+    @media screen and (max-width: 600px){
+        background-attachment: scroll;
+    }
+}

@@ -56,10 +56,38 @@
 }
 
 
-.mern__img {
-    height: auto;
-    width: 100%;
+.mern {
+    margin-top: 3rem;
+    margin-bottom: 3rem; 
+
+    &__col {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    &__img {
+        height: auto;
+        width: 100%;
+
+        &-2 {
+            margin-top: 1rem;
+        }
+    }
+
+    &__title {
+        color: red;
+        text-transform: uppercase;
+    }
+
+    &__description {
+    }
+
+    &__button {
+        font-size: 1.5rem;
+    }
+
 }
+
 
 
 

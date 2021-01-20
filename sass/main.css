@@ -368,9 +368,32 @@ body {
   opacity: .5;
 }
 
+.mern {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.mern__col {
+  padding: 1rem;
+  text-align: center;
+}
+
 .mern__img {
   height: auto;
   width: 100%;
+}
+
+.mern__img-2 {
+  margin-top: 1rem;
+}
+
+.mern__title {
+  color: red;
+  text-transform: uppercase;
+}
+
+.mern__button {
+  font-size: 1.5rem;
 }
 
 .javascript__card {

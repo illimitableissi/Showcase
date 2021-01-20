@@ -314,6 +314,7 @@ body {
   height: 30rem;
   margin-bottom: 3rem;
   margin-top: 3rem;
+  text-align: center;
 }
 
 .html__card-side {
@@ -354,7 +355,11 @@ body {
 .html__card-title {
   text-align: center;
   text-transform: uppercase;
-  color: black;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
   font-size: 4rem;
 }
 
@@ -366,6 +371,10 @@ body {
   -webkit-transform: scaleX(-1);
           transform: scaleX(-1);
   opacity: .5;
+}
+
+.html__card-btn {
+  font-size: 2rem;
 }
 
 .mern {
@@ -439,8 +448,13 @@ body {
   text-align: center;
 }
 
+.javascript__card-body {
+  text-align: center;
+}
+
 .javascript__card-btn {
   font-size: 1.5rem;
+  margin: .5rem;
 }
 
 .python__card {

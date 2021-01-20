@@ -478,4 +478,9 @@ body {
             transform: rotateZ(360deg);
   }
 }
+
+.education__col {
+  text-align: center;
+  letter-spacing: .3rem;
+}
 /*# sourceMappingURL=main.css.map */

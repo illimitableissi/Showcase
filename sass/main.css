@@ -252,6 +252,12 @@ body {
   background-size: cover;
 }
 
+@media screen and (max-device-width: 860px) {
+  .header {
+    background-image: url(../img/self2_small.jpg);
+  }
+}
+
 .header__name {
   text-align: center;
   text-transform: uppercase;

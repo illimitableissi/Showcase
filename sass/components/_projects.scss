@@ -3,6 +3,10 @@
     background-image: url(../img/self2.JPG);
     @include parallax;
 
+        @media screen and (max-device-width: 860px){
+            background-image: url(../img/self2_small.jpg)
+        }
+
     &__name {
         @include headers;
     }
@@ -15,10 +19,13 @@
 
 .projects-javascript {
     @include parallax;
-    background-image: url(../img/self1.JPG)
+    background-image: url(../img/self1.JPG);
+
 }
 
 .projects-python {
     background-image: url(../img/self3.JPG);
     @include parallax
 }
+
+

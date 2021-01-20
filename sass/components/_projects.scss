@@ -1,6 +1,6 @@
 .header {
     height: 50rem;
-    background-image: url("/img/self2.jpg");
+    background-image: url(https://github.com/illimitableissi/Showcase/blob/main/img/self2.JPG);
     @include parallax;
 
     &__name {
@@ -15,10 +15,10 @@
 
 .projects-javascript {
     @include parallax;
-    background-image: url("/img/self1.jpg")
+    background-image: url(/img/self1.jpg)
 }
 
 .projects-python {
-    background-image: url("/img/landscape1.jpg");
+    background-image: url(/img/landscape1.jpg);
     @include parallax
 }

@@ -245,7 +245,7 @@ body {
 
 .header {
   height: 50rem;
-  background-image: url("/img/self2.jpg");
+  background-image: url(https://github.com/illimitableissi/Showcase/blob/main/img/self2.JPG);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -277,11 +277,11 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url("/img/self1.jpg");
+  background-image: url(/img/self1.jpg);
 }
 
 .projects-python {
-  background-image: url("/img/landscape1.jpg");
+  background-image: url(/img/landscape1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

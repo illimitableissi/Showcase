@@ -479,8 +479,27 @@ body {
   }
 }
 
+.education {
+  margin-bottom: 9rem;
+}
+
+.education__header {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
 .education__col {
   text-align: center;
   letter-spacing: .3rem;
+}
+
+.education__heading {
+  text-transform: uppercase;
+  margin-top: 4rem;
 }
 /*# sourceMappingURL=main.css.map */

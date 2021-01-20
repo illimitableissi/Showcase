@@ -1,8 +1,18 @@
 .education {
+    margin-bottom: 9rem;
+
+    &__header {
+        @include headers
+    }
 
     &__col {
         text-align: center;
         letter-spacing: .3rem;
+    }
+
+    &__heading {
+        text-transform: uppercase;
+        margin-top: 4rem;
     
     }
 }

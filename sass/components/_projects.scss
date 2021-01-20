@@ -2,11 +2,7 @@
     height: 50rem;
     background-image: url(../img/self2.JPG);
     @include parallax;
-    // @include query;
-
-        @media screen and (max-width: 600px){
-            background-image: url(../img/self2_small.jpg)
-        }
+    @include query;
 
     &__name {
         @include headers;
@@ -19,14 +15,16 @@
 
 
 .projects-javascript {
-    @include parallax;
     background-image: url(../img/self1.JPG);
+    @include parallax;
+    @include query;
 
 }
 
 .projects-python {
     background-image: url(../img/self3.JPG);
-    @include parallax
+    @include parallax;
+    @include query;
 }
 
 

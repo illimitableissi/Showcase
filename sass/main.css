@@ -254,7 +254,7 @@ body {
 
 @media screen and (max-width: 600px) {
   .header {
-    background-image: url(../img/self2_small.jpg);
+    background-attachment: scroll;
   }
 }
 
@@ -279,11 +279,17 @@ body {
 }
 
 .projects-javascript {
+  background-image: url(../img/self1.JPG);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../img/self1.JPG);
+}
+
+@media screen and (max-width: 600px) {
+  .projects-javascript {
+    background-attachment: scroll;
+  }
 }
 
 .projects-python {
@@ -292,6 +298,12 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+  .projects-python {
+    background-attachment: scroll;
+  }
 }
 
 .html__card {
